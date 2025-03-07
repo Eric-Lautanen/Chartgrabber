@@ -19,7 +19,7 @@ const SESSION_HASH = `CONNECTS${Math.ceil(Math.random() * 1e9)}`;
 
 ////////////// ONLY CHANGE THESE VARIABLES ///////////////
 // Trading state and parameters
-let alreadyBought = false; // Tracks if a buy has occurred
+let alreadyBought = false; // Tracks if a buy has occurred or if bot crashes after a buy or something
 let initialSlippageBps = 40; // Initial slippage tolerance in basis points
 const smoothingFactor = 0.05; // EMA smoothing factor
 const BASE_POS_THRESHOLD = 0.007; // Base positive trend threshold
