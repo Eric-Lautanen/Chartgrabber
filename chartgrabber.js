@@ -441,7 +441,7 @@ function processPrice(logEntry, { prefix, label }) {
     const priceString = logEntry.split(prefix)[1]?.split(',')[0]?.trim();
     if (!priceString) return null;
     const price = Math.round(streamToUSDC(priceString) * 100) / 100;
-    if (price > 100 && price < 300) { return price; } // Validate price range
+    if (price > 100 && price < 300) { return price; } // Validate price range for SOL, 1500 and 3000 for ETH, 80000 and 110000 for BTC depending on current price
     return null;
 }
 
