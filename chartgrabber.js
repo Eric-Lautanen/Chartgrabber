@@ -14,7 +14,6 @@ import { fileURLToPath } from 'url'; // URL to file path conversion
 // Generate a unique session hash for connection tracking
 const SESSION_HASH = `CONNECTS${Math.ceil(Math.random() * 1e9)}`;
 
-// Configuration notes for Jupiter swap settings
 // YOU'LL PROBABLY HAVE TO TWEAK THE JUIPITER SETTINGS DOWN BELOW TO GAURANTEE BUYS/SELLS KEEP LAMPORTS AND SLIPPAGE AS LOW AS YOU CAN FOR HIGHER PROFITS.
 // THIS BOT CAN AUTO COMPOUND OFF STARTING VALUE OF $20 OR SO PRETTY EASILY.... HAVE FUN!
 
