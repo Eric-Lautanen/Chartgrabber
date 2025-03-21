@@ -97,12 +97,12 @@ async function getConnection() {
     const endpointUrls = [
         {
             http: 'https://solana-rpc.publicnode.com',
-            ws: 'wss://mainnet.helius-rpc.com/?api-key=faae83dd-fa58-402d-b0eb-10acaf8ea0b6',
+            ws: 'wss://mainnet.helius-rpc.com/?api-key=',
             headers: { 'x-session-hash': SESSION_HASH },
         },
         {
             http: 'https://api.mainnet-beta.solana.com',
-            ws: 'wss://cosmological-silent-meadow.solana-mainnet.quiknode.pro/012eee72cd3f09234cf099ebff942e006e69e3d0',
+            ws: 'wss://cosmological-silent-meadow.solana-mainnet.quiknode.pro/',
             headers: { 'x-session-hash': SESSION_HASH },
         },
     ];
